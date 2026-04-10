@@ -20,17 +20,17 @@
 ---
 include:
 
-  - board: rpi_pico
-    shield: ctrl_deadbug
+#  - board: rpi_pico
+#    shield: ctrl_deadbug
 
 ## To build with ZMK Studio support, uncomment the following block
 ## by removing the leading '#' from each line.
 
-#  - board: rpi_pico
-#    shield: ctrl_deadbug
-#    snippet: studio-rpc-usb-uart
-#    cmake-args: -DCONFIG_ZMK_STUDIO=y
-#    artifact-name: ctrl_deadbug_with_studio
+  - board: rpi_pico
+    shield: ctrl_deadbug
+    snippet: studio-rpc-usb-uart
+    cmake-args: -DCONFIG_ZMK_STUDIO=y
+    artifact-name: ctrl_deadbug_with_studio
 
   - board: rpi_pico
     shield: settings_reset
