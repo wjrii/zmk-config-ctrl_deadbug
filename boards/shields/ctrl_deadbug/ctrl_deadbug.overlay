@@ -10,7 +10,6 @@
             = <&pico_header 6 GPIO_ACTIVE_HIGH>
             , <&pico_header 7 GPIO_ACTIVE_HIGH>
             , <&pico_header 8 GPIO_ACTIVE_HIGH>
-            , <&pico_header 20 GPIO_ACTIVE_HIGH>
             , <&pico_header 9 GPIO_ACTIVE_HIGH>
             , <&pico_header 10 GPIO_ACTIVE_HIGH>
             , <&pico_header 11 GPIO_ACTIVE_HIGH>
@@ -19,9 +18,10 @@
             , <&pico_header 14 GPIO_ACTIVE_HIGH>
             , <&pico_header 15 GPIO_ACTIVE_HIGH>
             , <&pico_header 16 GPIO_ACTIVE_HIGH>
+            , <&pico_header 17 GPIO_ACTIVE_HIGH>
             , <&pico_header 18 GPIO_ACTIVE_HIGH>
             , <&pico_header 19 GPIO_ACTIVE_HIGH>
-            , <&pico_header 17 GPIO_ACTIVE_HIGH>
+            , <&pico_header 20 GPIO_ACTIVE_HIGH>
             ;
 
         row-gpios
